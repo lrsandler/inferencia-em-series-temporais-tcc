@@ -1,0 +1,15 @@
+name: chronos
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.3
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - autogluon-timeseries
+      - transformers==4.41
+      - chronos-forecasting

@@ -1,0 +1,30 @@
+/home/luana/miniconda3/envs/tcc/lib/python3.8/site-packages/peft/tuners/lora.py:299: UserWarning: fan_in_fan_out is set to False but the target module is `Conv1D`. Setting fan_in_fan_out to True.
+  warnings.warn(
+TEMPO_testing.py:127: RuntimeWarning: invalid value encountered in divide
+  preds_final = np.where(preds_count != 0, preds_sum / preds_count, 0)
+TEMPO_testing.py:127: RuntimeWarning: invalid value encountered in divide
+  preds_final = np.where(preds_count != 0, preds_sum / preds_count, 0)
+------------------No need to load pretrained GPT model------------------
+trainable params: 308736 || all params: 82207488
+Loading model from: ./checkpoints/TEMPO_checkpoints/TEMPO-80M_v1_checkpoint.pth
+signature predict: (x, pred_length=96)
+signature forward: (x, itr=0, trend=None, season=None, noise=None, test=False)
+signature load_pretrained_model: (device, cfg=None, repo_id='Melady/TEMPO', filename='TEMPO-80M_v1.pth', cache_dir='./checkpoints/TEMPO_checkpoints')
+
+Métricas de Previsão para 1 Passo:
+  MAE: 2990.129
+ RMSE: 4262.296
+ MAPE: 18.711
+   R2: -0.392
+
+Métricas de Previsão para Múltiplos Passos:
+  MAE: 3406.544
+ RMSE: 4283.334
+ MAPE: 26.319
+   R2: -0.522
+
+Métricas de Previsão para Múltiplos Passos em 2018 e 2019:
+  MAE: 3312.557
+ RMSE: 4107.222
+ MAPE: 26.007
+   R2: -0.094

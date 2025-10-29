@@ -1,0 +1,16 @@
+name: tempo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch=2.1
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - tempo-timeseries
+      - einops
+      - peft
+      - transformers==4.38
