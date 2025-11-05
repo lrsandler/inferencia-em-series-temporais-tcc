@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 timestamp_col = "timestamp"
 target_col = "water_produced"
-save_dir = "./plots_lagllama"
+save_dir = "./plots"
 os.makedirs(save_dir, exist_ok=True)
 
 

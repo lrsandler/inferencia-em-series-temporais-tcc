@@ -135,8 +135,3 @@ def run_lag_llama():
 
 if __name__ == "__main__":
     run_lag_llama()
-
-#modelo foi treinado com context length  32
-#We see that when context length is increased to  256 , the model's performance drops.
-#  This indicates that tuning the context length for each dataset/task is very important,
-#  and the largest possible context length is not always the best in the case of Lag-Llama at the moment.
