@@ -1,0 +1,17 @@
+name: lag-llama
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.3
+  - numpy>=1.23.5
+  - pandas>=2.0
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - gluonts[torch]<=0.14.4
+      - wandb
+      - huggingface_hub[cli]

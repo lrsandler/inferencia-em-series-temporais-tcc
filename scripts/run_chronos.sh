@@ -1,2 +1,4 @@
+source ~/miniconda3/etc/profile.d/conda.sh
 conda activate chronos
-python models/chronos/infer_chronos.py
+cd ..
+python main.py --model chronos 
